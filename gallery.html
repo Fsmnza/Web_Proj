@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b57446e670.js" crossorigin="anonymous"></script>
+    <title>HaKa's Kitchen | Menu</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="index.html">
+                            <li>
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                            </li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="login.html">
+                            <li>
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="index.html">
+                            <li>
+                                <li>Home</li>
+                            </li>
+                        </a>
+                        <a href="about.html">
+                            <li>
+                                <li>About</li>
+                            </li>
+                        </a>
+                        <a href="gallery.html">
+                            <li>
+                                <li>Gallery</li>
+                            </li>
+                        </a>
+                        <a href="menu.html">
+                            <li>
+                                <li>Food Menu</li>
+                            </li>
+                        </a>
+                        <a href="reservation.html">
+                            <li>
+                                <li>Reservation</li>
+                            </li>
+                        </a>
+                         <a href="michelin.html">
+                            <li>
+                                <li>Michelin</li>
+                            </li>
+                        </a>
+    
+                        <audio id="backgroundAudio" autoplay loop>
+                            <source src="music.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="images/officialogo.png" alt="">
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars" ></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="gallery.html">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="reservation.html">
+                        <li>Reservation</li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="michelin.html">
+                        <li>Michelin</li>
+                    </a>
+                    <a href="">
+                        
+                        <audio id="backgroundAudio" autoplay loop>
+                            <source src="music.mp3" type="audio/mp3">
+                        </audio>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="index.html">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                        </li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="login.html">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="images/fg.webp" class="d-block w-100 c-img" alt="Slide 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">The lovely Place</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Beautiful vibe</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/hjk.jpeg" class="d-block w-100 c-img" alt="Slide 2">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">The most delicious Asian dishes</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Peaceful ambiance</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/kr.webp" class="d-block w-100 c-img" alt="Slide 3">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Welcoming staff</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Have a meal with us</p\h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/sr.jpeg" class="d-block w-100 c-img" alt="Slide 4">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Another Place</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Awesome view</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/vg.jpeg" class="d-block w-100 c-img" alt="Slide 5">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Scenic Destination</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Nature's beauty</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/fo.jpeg" class="d-block w-100 c-img" alt="Slide 6">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Relaxing Retreat</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">All drinks available</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/dh.jpeg" class="d-block w-100 c-img" alt="Slide 7">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">A new experience awaits</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Refreshing atmosphere</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/bh.jpeg" class="d-block w-100 c-img" alt="Slide 8">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Unwind in serenity</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Tranquil surroundings</h1>
+                </div>
+            </div>
+    
+            <div class="carousel-item c-item">
+                <img src="images/ko.png" class="d-block w-100 c-img" alt="Slide 9">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Escape to tranquility</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Find peace and relaxation</h1>
+                </div>
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+    
+    <div class="footer">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3">
+                 <img src="images/officialogo.png" class="footer-logo" alt="">
+                 <p>HaKa's Kitchen, a restaurant that marries the diverse cuisines of the world with the rich heritage of Kazakhstan.</p>
+              </div>
+              <div class="col-md-3">
+                 <h4>Features</h4>
+                 <p>Deals $offers</p>
+                 <p>Customer Reviews</p>
+                 <p>Cancelation Policy</p>
+              </div>
+              <div class="col-md-3">
+                 <h4>Quick Contact</h4>
+                 <p><i class="fa-solid fa-square-phone"></i>+77072009057</p>
+                 <p><i class="fa-solid fa-envelope"></i>haka@example.com</p>
+                 <p><i class="fa-solid fa-house"></i>Dostyk 25, Astana city</p>
+              </div>
+              <div class="col-md-3">
+                 <h4>Follow Us on</h4>
+                 <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+                 <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+                 <p><i class="fa-brands fa-twitter"></i>Twitter</p>
+              </div>
+           </div><hr>      
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
